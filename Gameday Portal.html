@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>testing</title>
+    <link rel="stylesheet" href="gameday-portal.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+  </head>
+  <body>
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+<script>
+addCSS('https://use.fontawesome.com/releases/v5.15.1/css/all.css');
+addCSS('https://jbu_ftp.sidearmsports.com/custompages/gameday/gameday-portal.css')
+
+// Include CSS file
+function addCSS(filename){
+var head = document.getElementsByTagName('head')[0];
+
+var style = document.createElement('link');
+style.href = filename;
+style.type = 'text/css';
+style.rel = 'stylesheet';
+head.append(style);
+}
+</script>
+-->
+
+<main id="top" class="gameday-dashboard">
+
+    <section class="section-one">
+
+        <div class="gameday-header">
+
+            <div class="away-container">
+
+                <!-- Change Away Team Link Color Here -->
+                <ul class="team-menu away" style="color: #124E84;">
+                    <li class="menu-item"><a href="#">Roster</a></li><br>
+                    <li class="menu-item"><a href="#">Schedule</a></li><br>
+                    <li class="menu-item"><a href="#">News</a></li><br>
+                    <li class="menu-item"><a href="#">Stats</a></li><br>
+                    <li class="stat-caption">(10-0, 5-1)</li>
+                </ul>
+
+                <!-- Change Away Team Logo & Background Color Here -->
+                <div class="away team-logo" style="background: #002d62"><img src="https://jbu_ftp.sidearmsports.com/custompages/gameday/mbb-vis-logo-scoreboard.png"></div>
+
+            </div>
+    
+            <p><span>V</span><span class="second-letter">S</span></p>
+
+            <div class="home-container">
+    
+                <div class="home team-logo"><img src="https://jbu_ftp.sidearmsports.com/custompages/gameday/jbu-logo-scoreboard.png"></div>
+        
+                <ul class="team-menu home">
+                    <li class="menu-item"><a href="#">Roster</a></li><br>
+                    <li class="menu-item"><a href="#">Schedule</a></li><br>
+                    <li class="menu-item"><a href="#">News</a></li><br>
+                    <li class="menu-item"><a href="#">Stats</a></li><br>
+                    <li class="stat-caption">(10-0, 5-1)</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <div id="twitterContainer" class="twitter-container">
+
+            <h2 class="section-header">Live Updates @JBUathletics</h2>
+
+            <div class="twitter-embed">
+                <a class="twitter-timeline" href="https://twitter.com/JBUathletics?ref_src=twsrc%5Etfw">Tweets by JBUathletics</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            </div>
+
+        </div>
+    
+        <div id="videoContainer" class="video-container">  
+
+            <div id="videoEmbed" class="video-embed">
+                <iframe allow="fullscreen;" frameborder="0" height="360" src="https://vcloud.blueframetech.com/broadcast/embed/203768?autoplay=1" width="100%"></iframe>
+            </div>
+
+            <div id="placeholder" style="height:0;"></div>
+    
+            <div id="buttonContainer" class="button-container">
+
+                <a href="https://apps.apple.com/us/app/sac-sports-network/id1533430217" target="_blank" class="btn-lrg">
+                    DOWNLOAD
+                    <i class="fas fa-mobile-alt"></i></a>
+                <a href="/calendar" target="_blank" class="btn-lrg">
+                    CALENDAR
+                    <i class="far fa-calendar-alt"></i></a>
+                <a href="/sports/2016/8/17/tickets.aspx" target="_blank" class="btn-lrg">
+                    TICKETS
+                    <i class="fas fa-ticket-alt"></i></a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="section-two">
+
+        <div class="stat-container">  
+
+            <div class="stat-embed">
+                <iframe allow="fullscreen;" frameborder="0" height="360" src="https://jbuathletics.com/sidearmstats/mbball/summary" width="100%"></iframe>
+            </div>
+
+        </div>
+
+        <div class="standings-container">
+
+            <h2 class="section-header">SAC Standings</h2>
+
+            <div class="standings-embed">
+
+                <script>
+                    var obj = {
+                        "start": 0,
+                        "count": 10,
+                        "name": "standings-html-ad-f66e18",
+                        "sport_id": null,
+                        "count_breakpoints": null,
+                        "css_class": "",
+                        "pinned_id": "",
+                        "extra": {},
+                        "context": null,
+                        "type": "standings",
+                        "id": "f4196dbd-464a-4161-910a-e4d1366d312b",
+                        "data": {
+                            "location": {
+                                "id": 58,
+                                "title": "Standings HTML Ad",
+                                "type": "html",
+                                "effect": "none",
+                                "fixed_image_sizes": false,
+                                "excluded_sport_ids": [],
+                                "slick": false,
+                                "dfp": false,
+                                "sidearm_dfp": false,
+                                "common_page": false,
+                                "html_template": null,
+                                "name": "standings-html-ad-f66e18",
+                                "autoplay_speed": 8,
+                                "accessibility_icons": false,
+                                "sizes": null,
+                                "slick_options": null,
+                                "dfp_sizes": null
+                            },
+                            "campaigns": [{
+                                "id": 1041,
+                                "title": "Standings FBL Ad",
+                                "start_date": "2017-06-28T00:00:00",
+                                "end_date": null,
+                                "open_in_new_window": true,
+                                "link": "#",
+                                "icon": null,
+                                "html": "&lt;div id=&quot;standings&quot;&gt;\r\n&lt;div class=&quot;sectionTitle&quot;&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div id=&quot;standingsTable&quot;&gt;&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;script&gt;$(&quot;#standingsTable&quot;).load(&quot;https://static.mgoblue.com/custompages/library/standings/football-standings.html&quot;)&lt;/script&gt;",
+                                "picture": null,
+                                "css_class": null,
+                                "is_dummy": false,
+                                "hover_text": null
+                            }],
+                            "content_id": "standings-html-ad-f66e18",
+                            "content_title": "standings-html-ad-f66e18",
+                            "content_date": null,
+                            "content_url": null,
+                            "content_image_url": null
+                        },
+                        "mode": "web"
+                    };
+                    if (!("sidearmComponents" in window))
+                        window.sidearmComponents = [];
+                    window.sidearmComponents.push(obj);
+                </script>
+                
+                <ads-component params="{ id: '861fbe8f-9eef-42fc-a98b-df0de0f41934' }"></ads-component>
+
+            </div>
+
+        </div>
+
+    </section> 
+
+    <section class="section-three">
+
+        <h2 class="section-header full-size">Share Your Golden Eagle Pride on Instagram!
+            <span class="callout">#goJBU</span>
+        </h2>
+
+        <div class="photowall-container">
+
+            <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
+            <!-- The Javascript can be moved to the end of the html page before the </body> tag -->
+            <script type="text/javascript">
+            /* curator-feed-default-feed-layout */
+            (function(){
+                var i, e, d = document, s = "script";i = d.createElement("script");i.async = 1;
+                i.src = "https://cdn.curator.io/published/f564d148-5168-4fb2-99c7-a48cf76085ce.js";
+                e = d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+            })();
+            </script>
+
+        </div>
+
+    </section>
+
+    <section class="section-four">
+
+        <div class="grid-container">
+
+            <div class="grid-content_row">
+
+                <div class="grid-content_item">
+                    <h2 class="section-header">TITLE</h2>
+                    <a href="#" target="_blank">
+                        <img alt="Title" src="https://jbu_ftp.sidearmsports.com/custompages/gameday/test-logo.jpg" width="640">
+                    </a>
+                </div>
+
+                <div class="grid-content_item">
+                    <h2 class="section-header">TITLE</h2>
+                    <a href="#" target="_blank">
+                        <img alt="Title" src="https://jbu_ftp.sidearmsports.com/custompages/gameday/test-logo.jpg" width="640">
+                    </a>
+                </div>
+
+                <div class="grid-content_item">
+                    <h2 class="section-header">TITLE</h2>
+                    <a href="#" target="_blank">
+                        <img alt="Title" src="https://jbu_ftp.sidearmsports.com/custompages/gameday/test-logo.jpg" width="640">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-container">
+
+            <div class="grid-content_row">
+
+                <div class="grid-content_item">
+                    <h2 class="section-header">TITLE</h2>
+                    <a href="#" target="_blank">
+                        <img alt="Title" src="https://jbu_ftp.sidearmsports.com/custompages/gameday/test-logo.jpg" width="640">
+                    </a>
+                </div>
+
+                <div class="grid-content_item">
+                    <h2 class="section-header">TITLE</h2>
+                    <a href="#" target="_blank">
+                        <img alt="Title" src="https://jbu_ftp.sidearmsports.com/custompages/gameday/test-logo.jpg" width="640">
+                    </a>
+                </div>
+
+                <div class="grid-content_item">
+                    <h2 class="section-header">TITLE</h2>
+                    <a href="#" target="_blank">
+                        <img alt="Title" src="https://jbu_ftp.sidearmsports.com/custompages/gameday/test-logo.jpg" width="640">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="section-five">
+
+        <h2 class="section-header full-size xl">FOLLOW THE <span>GOLDEN EAGLES<span></span></h2>
+
+        <div class="social-container">
+
+            <div class="social-icon">
+                <a class="social-icon_link" href="https://www.instagram.com/jbuathletics/">
+                    <i class="fab fa-instagram"></i>
+                    <span>Like Us +</span>
+                </a>
+            </div>
+
+            <div class="social-icon">
+                <a class="social-icon_link" href="https://twitter.com/jbuathletics">
+                    <i class="fab fa-twitter"></i>
+                    <span>Follow Us +</span>
+                </a>
+            </div>
+
+            <div class="social-icon">
+                <a class="social-icon_link" href="https://www.facebook.com/JBUathletics/">
+                    <i class="fab fa-facebook"></i>
+                    <span>Like Us +</span>
+                </a>
+            </div>
+
+            <div class="social-icon">
+                <a class="social-icon_link" href="https://www.youtube.com/user/JBUAthletics">
+                    <i class="fab fa-youtube"></i>
+                    <span>Watch Us +</span>
+                </a>
+            </div>
+
+        </div>
+
+        <div class="more-info-container">
+
+            <div class="more-info-content">
+
+                <div class="more-info-description">
+
+                    Get Golden Eagle news, scores and content <strong>delivered straight to your inbox!</strong>
+                    <br>
+                    <br>
+                    <a class="btn-lrg email" href="/subscribe.aspx" target="_blank">SIGN UP 
+                        <i class="far fa-envelope"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+            <div class="logo-container"><img src="https://jbu_ftp.sidearmsports.com/custompages/gameday/jbu-footer-logo.png"></div>
+
+            <p>Thank you for supporting John Brown University Athletics</p>
+
+            <a href="#scoreboard" class="btn-lrg tertiary"><i class="fas fa-caret-square-up"></i>Back to top</a>
+
+        </div>
+
+    </section>
+
+</main>
+<script>
+var videoContainer = document.getElementById('videoContainer');
+var videoEmbed = document.getElementById('videoEmbed');
+var placeholder = document.getElementById('placeholder');
+
+var embedHeight = videoEmbed.offsetHeight;
+
+window.onscroll = function() {
+  var scrollPos = window.scrollY;
+
+  var containerHeight = videoContainer.offsetHeight;
+  var videoBottom = embedHeight + videoContainer.offsetTop - 99;
+  
+  if (scrollPos >= videoBottom && window.innerWidth >= 700) {
+    videoContainer.style.height = `${containerHeight}px`;
+    videoEmbed.classList.add('stuck');
+    placeholder.style.display = "block";
+  } else {
+    videoContainer.style.height = 'auto';
+    videoEmbed.classList.remove('stuck');
+    placeholder.style.display = "none";
+  };
+};
+
+function updateTwitterHeight() {
+    var vidContainerHeight = videoContainer.offsetHeight;
+    var twitterContainer = document.getElementById('twitterContainer');
+    var windowWidth = window.innerWidth >= 1050;
+    if ( windowWidth ) {
+        twitterContainer.style.height = `${vidContainerHeight}px`;
+    }
+}
+
+window.onload = updateTwitterHeight();
+window.onload = placeholder.style.height = `${embedHeight}px`;
+
+window.addEventListener('resize', updateTwitterHeight);
+
+    var obj = {
+        "start":0,
+        "count":10,
+        "name":"standings-html-ad-f66e18",
+        "sport_id":null,
+        "count_breakpoints":null,
+        "css_class":"",
+        "pinned_id":"",
+        "extra":{},
+        "context":null,
+        "type":"ads",
+        "id":"db8a42d0-e291-4c1a-b3db-f9fd7bc3e0a7",
+        "data":{
+            "location":{
+                "id":58,
+                "title":"Standings HTML Ad",
+                "type":"html",
+                "effect":"none",
+                "fixed_image_sizes":false,
+                "excluded_sport_ids":[],
+                "slick":false,
+                "dfp":false,
+                "sidearm_dfp":false,
+                "common_page":false,
+                "html_template":null,
+                "name":"standings-html-ad-f66e18",
+                "autoplay_speed":8,
+                "accessibility_icons":false,
+                "sizes":null,
+                "slick_options":null,
+                "dfp_sizes":null
+            },
+            "campaigns":[{
+                "id":1036,
+                "title":
+                "Standings BKM Ad",
+                "start_date":"2017-05-27T00:00:00",
+                "end_date":null,
+                "open_in_new_window":true,
+                "link":"#",
+                "icon":null,
+                "html":"&lt;div id=&quot;standings&quot;&gt;\r\n&lt;div class=&quot;sectionTitle&quot;&gt;\r\n&lt;div class=&quot;title&quot;&gt;Standings&lt;/div&gt;\r\n&lt;/div&gt;\r\n\r\n&lt;div id=&quot;standingsTable&quot;&gt;&lt;/div&gt;\r\n&lt;/div&gt;\r\n&lt;script&gt;$(&quot;#standingsTable&quot;).load(&quot;https://static.mgoblue.com/custompages/library/standings/mbball-standings.html&quot;)&lt;/script&gt;",
+                "picture":null,
+                "css_class":null,
+                "is_dummy":false,
+                "hover_text":null
+            }],
+            "content_id":"standings-html-ad-f66e18",
+            "content_title":"standings-html-ad-f66e18",
+            "content_date":null,
+            "content_url":null,
+            "content_image_url":null
+        },
+        "mode":"web"
+    };
+    if (!("sidearmComponents" in window))
+        window.sidearmComponents = [];
+    window.sidearmComponents.push(obj);
+
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
